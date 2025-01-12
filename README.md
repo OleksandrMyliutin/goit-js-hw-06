@@ -1,2 +1,2 @@
-# goit-js-hw-05
-Homew work number 5 js from Goit-skool
+# goit-js-hw-06
+Homew work number 6 js from Goit-skool
