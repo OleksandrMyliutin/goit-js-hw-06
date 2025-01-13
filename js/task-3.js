@@ -1,20 +1,20 @@
 console.log("-----------------------------------------------------------")
 class StringBuilder{
-  #vale;
+  #value;
   constructor(initialValue) {
-    this.#vale = initialValue;
+    this.#value = initialValue;
   }
   getValue() { 
-    return this.#vale;
+    return this.#value;
   };
   padEnd(str) { 
-    return this.#vale = [...this.#vale, ...str].join("");
+    this.#value = [...this.#value, ...str].join("");
   };
   padStart(str) {
-    return this.#vale = [...str, ...this.#vale].join("");
+    this.#value = [...str, ...this.#value].join("");
   };
   padBoth(str) {
-    return this.#vale = [...str, ...this.#vale, ...str].join("");
+    this.#value = [...str, ...this.#value, ...str].join("");
   };
 }
 
